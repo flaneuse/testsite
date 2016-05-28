@@ -4,11 +4,14 @@
 
 
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
+      <div class="footer-col">
         <ul class="contact-list">
           <li>
-            <i class="fa fa-send-o"></i>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <a href="mailto:{{ site.email }}">
+              <i class="fa fa-send-o"></i>
+              {{ site.email }}
+            </a>
+          </li>
 
           {% if site.github_username %}
           <li>
