@@ -6,9 +6,9 @@
 
 
 // Color variables
-$base-font-family: 'Khula', Helvetica, Arial, sans-serif;
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
 $base-font-size:   18px;
-$base-font-weight: 200;
+$base-font-weight: 100;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -17,6 +17,8 @@ $spacing-unit:     30px;
 $text-color:       #353839;
 $background-color: #fdfdfd;
 $brand-color:      #5882D1;
+$accent-color:     #3F817C;
+$accent-color-light:  #A6D3D1;
 
 $grey-color:       #5D6061;
 $grey-color-light: lighten($grey-color, 40%);
