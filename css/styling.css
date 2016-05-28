@@ -1,0 +1,12 @@
+
+/*h1*/
+
+.title {
+	position: relative;
+	font-family: 'Khula', sans-serif;
+	float: left;
+	width: 29%;
+	height: 0;
+	margin: 2%;
+	padding-bottom: 20%;
+}
