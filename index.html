@@ -6,19 +6,33 @@ layout: default
 
 
   <!-- Posts -->
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">2016</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li>
+      <!-- date -->
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <!-- title/link -->
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <!-- image -->
+      <img src="{{ post.img }}"></img>
+    </li>
+
+    <!-- co-authors -->
+    {% if post.co-authors %}
+        <span class="username">with {{ post.co-authors }}</span>
+    {% endif %}
+
     {% endfor %}
   </ul>
+
+
+
 
   <!-- RSS feed -->
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
