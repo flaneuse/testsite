@@ -103,9 +103,23 @@
 
 .contact-list li{
   list-style: none;
-  color: $accent-color-light;
   margin-left: 0;
+  padding-left: 35px;
   display: inline;
+}
+
+.contact-list a{
+  color: $accent-color;
+  text-decoration: none;
+}
+
+.contact-list a:hover{
+  color: $accent-color-light;
+  text-decoration: none;
+}
+
+.contact-list-light {
+  color: $accent-color-light;
 }
 
 .footer-col-wrapper {
