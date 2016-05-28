@@ -104,7 +104,6 @@
 .contact-list{
     list-style: none;
     color: $accent-color-light;
-    display: inline;
     margin-left: 0;
 }
 
@@ -119,11 +118,13 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+      display: inline;
 }
 
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+        display: inline;
 }
 
 .footer-col-2 {
