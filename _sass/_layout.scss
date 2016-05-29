@@ -106,12 +106,10 @@
   margin-left: 0;
   padding-left: 35px;
   display: inline;
-}
-
-.contact-list a{
-  color: $accent-color;
-  text-decoration: none;
-}
+  a{
+    color: $accent-color;
+    text-decoration: none;
+  }}
 
 .contact-list a:hover{
   color: $accent-color-light;
@@ -171,6 +169,12 @@
   }
 }
 
+/**
+* Images for first page
+*/
+.gallery {
+  width: 33%;
+}
 
 
 /**

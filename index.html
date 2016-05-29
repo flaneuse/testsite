@@ -3,14 +3,16 @@ layout: default
 ---
 
 <div class="home">
-
+  <span class="body">
+    I'm a data scientist.
+  </span>
 
   <!-- Posts -->
   <h1 class="page-heading">2016</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-    <li>
+    <li class="gallery">
       <!-- date -->
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -20,21 +22,24 @@ layout: default
       </h2>
 
       <!-- image -->
-      <img src="{{ post.img }}"></img>
-    </li>
+        <img src="{{ post.img }}"></img>
 
-    <!-- co-authors -->
-    {% if post.co-authors %}
+        <!-- co-authors -->
+        {% if post.co-authors %}
         <span class="username">with {{ post.co-authors }}</span>
-    {% endif %}
+        {% endif %}
 
-    {% endfor %}
-  </ul>
-
+        </li>
 
 
 
-  <!-- RSS feed -->
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        {% endfor %}
+      </ul>
 
-</div>
+
+
+
+      <!-- RSS feed -->
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>
