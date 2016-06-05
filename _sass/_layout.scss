@@ -174,7 +174,14 @@
 */
 .gallery {
   width: 33%;
+  height: $base-img-height;
+  float: left;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 10px;
 }
+
+
 
 
 /**
