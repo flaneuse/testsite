@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Stata Cheat Sheet: programming"
-date:   2016-05-28 13:13:07
+date:   2016-06-04 06:00:00
 categories: Stata cheatsheet
-img: "/img/Stata Cheatsheets_programming_May2016.png"
+img: "/img/StataCheatsheet_processing_June_2016_Transformation.png"
 co-authors: Tim Essam
 ---
